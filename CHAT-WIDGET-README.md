@@ -38,14 +38,14 @@ The code assumes:
 - `lucide-react` available
 - Tailwind-style utility classes available in your app
 - Theme utility classes `bg-primary`, `text-primary`, `focus:ring-primary`, and `text-textSecondary` exist in your design tokens/theme
-- Relative imports from project-local files (no path alias required)
+- `@` path alias configured to resolve to your `src` directory
 
 ## 4) Public Entry Point
 
 Use this component in your page/app shell:
 
 ```tsx
-import ChatWidget from './src/chat-widget/chat-widget'
+import ChatWidget from '@/chat-widget/chat-widget'
 
 export default function AppShell() {
   return <ChatWidget />
@@ -134,7 +134,7 @@ Use this as the mental model for assistants/tools:
 ## 9) Integration Checklist
 
 - [ ] Copied full `src/chat-widget` folder, not only one file
-- [ ] Confirmed imports are relative `./` or `../` paths
+- [ ] Confirmed `@` alias is configured and internal imports resolve (e.g. `@/chat-widget/...`)
 - [ ] Installed/available dependency: `lucide-react`
 - [ ] Confirmed theme classes exist: `primary` and `textSecondary` tokens
 - [ ] Mounted `ChatWidget` from `src/chat-widget/chat-widget.tsx`

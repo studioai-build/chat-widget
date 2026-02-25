@@ -1,6 +1,6 @@
 import { Send } from 'lucide-react';
 import { KeyboardEvent, RefObject } from 'react';
-import { ChatSession } from './chat-popup-types';
+import { ChatSession } from '@/chat-widget/components/chat-popup-types';
 
 interface ChatInputProps {
   inputRef: RefObject<HTMLInputElement | null>;
