@@ -1,5 +1,5 @@
 import { MessageCircle, X } from 'lucide-react';
-import { ChatSession } from '@/chat-widget/components/chat-popup-types';
+import { ChatSession } from './chat-popup-types';
 
 interface ChatPopupHeaderProps {
   showTyping: boolean;

@@ -1,8 +1,8 @@
 import { RefObject } from 'react';
-import { Message } from '@/chat-widget/components/chat-popup-types';
-import { ChatConnectionError } from '@/chat-widget/components/chat-connection-error';
-import { ChatEmptyState } from '@/chat-widget/components/chat-empty-state';
-import { TypingIndicator } from '@/chat-widget/components/chat-typing-indicator';
+import { Message } from './chat-popup-types';
+import { ChatConnectionError } from './chat-connection-error';
+import { ChatEmptyState } from './chat-empty-state';
+import { TypingIndicator } from './chat-typing-indicator';
 
 interface ChatMessagesProps {
   error: string | null;
