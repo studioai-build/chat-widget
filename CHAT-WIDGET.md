@@ -13,3 +13,7 @@ This document explains how to integrate and use the `ChatWidget` module in anoth
 The main entry file is:
 
 - `src/chat-widget/ChatWidget.tsx`
+
+## Use
+
+import { ChatWidget } from '@/chat-widget/ChatWidget';

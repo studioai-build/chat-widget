@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
 import ChatPopup from './components/ChatPopup';
 
-export default function ChatWidget() {
+export function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
