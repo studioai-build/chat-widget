@@ -12,4 +12,4 @@ This document explains how to integrate and use the `ChatWidget` module in anoth
 
 The main entry file is:
 
-- `src/chat-widget/chat-widget.tsx`
+- `src/chat-widget/ChatWidget.tsx`

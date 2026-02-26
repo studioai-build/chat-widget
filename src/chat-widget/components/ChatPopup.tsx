@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
-import { ChatInput } from './chat-input';
-import { ChatMessages } from './chat-messages';
-import { ChatMobileBackdrop } from './chat-mobile-backdrop';
-import { ChatPopupHeader } from './chat-popup-header';
-import { ChatPopupProps, ChatSession, Message } from './chat-popup-types';
+import { ChatInput } from './ChatInput';
+import { ChatMessages } from './ChatMessages';
+import { ChatMobileBackdrop } from './ChatMobileBackdrop';
+import { ChatPopupHeader } from './ChatPopupHeader';
+import { ChatPopupProps, ChatSession, Message } from './ChatPopupTypes';
 
 export default function ChatPopup({ isOpen, onClose, agentId }: ChatPopupProps) {
   const [chatSession, setChatSession] = useState<ChatSession | null>(null);

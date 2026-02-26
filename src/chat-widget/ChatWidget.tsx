@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
-import ChatPopup from './components/chat-popup';
+import ChatPopup from './components/ChatPopup';
 
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
